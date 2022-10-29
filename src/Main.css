@@ -39,8 +39,6 @@ body {
   justify-content: space-between;
   align-items: left;
 
-  border: 1px solid black;
-
   margin-bottom: 1rem;
 }
 
@@ -68,20 +66,4 @@ button {
 
 button:hover {
   background-color: #609559;
-}
-
-.successContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-h2 {
-  margin: 4rem;
-}
-
-img {
-  width: 70%;
 }

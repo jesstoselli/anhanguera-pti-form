@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+body {
+  width: clamp(60rem, 50vw, 85rem);
+  height: 100vh;
+  margin: 0 auto;
+  background: radial-gradient(
+    circle at top,
+    hsl(214, 47%, 23%),
+    hsl(237, 49%, 15%)
+  );
+  color: #e8e8ec;
+  -webkit-font-smoothing: antialiased;
+}
+
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  margin: 4rem;
+}
+
+img {
+  width: 70%;
+}
